@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './SearchBook.css';
+import SearchBook from './SearchBook/SearchBook';
+import BookList from './BookList/BookList';
 
 class App extends Component {
   constructor(props){
