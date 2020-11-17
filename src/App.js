@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './SearchBook.css';
 
 class App extends Component {
   constructor(props){
@@ -18,10 +19,10 @@ class App extends Component {
       <>
         <header>
           <h1>Book Search</h1>
-          <SearchBook displayBooks = {books => this.handleSearch(books)}></SearchBook>
+          <SearchBook displayBooks = {books => this.handleSearch(books)} />
         </header>
         <main className="App">
-          <BookList books = {this.state.books}></BookList>
+          <BookList books = {this.state.books} />
         </main>
       </>
     );
@@ -29,4 +30,3 @@ class App extends Component {
 }
 export default App;
  
-export default App;
